@@ -55,6 +55,12 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 /*------------------------------header-------------------------------*/
 
 .header .container {
@@ -204,11 +210,6 @@ img {
 
 /*----------------------Benefits--------------------*/
 
-.section {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
 .section.benefits {
   padding-bottom: 0;
 }
@@ -270,7 +271,6 @@ img {
 
 .about-item + .about-item {
   margin-left: 30px;
-  height: 294px;
 }
 
 /*------------------------------team------------------*/
@@ -400,15 +400,17 @@ img {
 .project-list {
   display: flex;
   flex-wrap: wrap;
+  margin-bottom: -30px;
 }
 
 .project-item {
   margin-left: 30px;
-  margin-bottom: 30px;
 
   background-color: var(--main-color);
 
   border-bottom: 1px solid var(--bg-color);
+
+  margin-bottom: 30px;
 }
 
 .project-item:nth-child(3n + 1) {
@@ -418,6 +420,7 @@ img {
 .project-title {
   padding-top: 20px;
   padding-bottom: 4px;
+  padding-left: 24px;
 
   font-size: 18px;
   line-height: 2;
@@ -425,6 +428,7 @@ img {
 }
 .project-text {
   padding-bottom: 20px;
+  padding-left: 24px;
 
   font-size: 16px;
   line-height: 1.88;
